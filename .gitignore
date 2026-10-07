@@ -1,0 +1,23 @@
+# 凭证与本机数据（不入库）
+local_api_key.json
+.env
+*.env
+!*.env.example
+config.json
+!config.example.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# 编辑器与系统
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
