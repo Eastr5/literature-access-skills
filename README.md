@@ -1,6 +1,6 @@
 # 文献获取技能集
 
-WorkBuddy 技能仓库，收录文献与数据获取链路上自建的四个技能。私有仓库，仅供本人与指定协作者使用。
+WorkBuddy 技能仓库，收录文献与数据获取链路上自建的四个技能。
 
 ## 技能清单
 
@@ -10,6 +10,8 @@ WorkBuddy 技能仓库，收录文献与数据获取链路上自建的四个技�
 | `literature-search` | `skills/literature-search/` | 多引擎学术检索。Semantic Scholar、arXiv、Tavily、Exa、AMiner、Google Scholar，按查询类型选择引擎，输出去重排序后的结构化元数据。 |
 | `paper-fulltext-harvest` | `skills/paper-fulltext-harvest/` | 按 DOI 列表批量下载全文（PDF/XML）。按 25 个 DOI 前缀 / 19 个出版商家族分流到三条路径：出版商 TDM API、开放获取聚合源、浏览器兜底。 |
 | `zotero-sync` | `skills/zotero-sync/` | 通过 Zotero 7 本地 API 把文献写入桌面版：DOI 查重、建条目、上传 PDF 附件、归入分类、打标签、写备注。 |
+
+> `skills/literature-search/legacy/` 是早期同名的 `literature-search-skill` 仓库整体归档（含 agents / references / templates 设计稿），已被当前 `literature-search` 的脚本化实现取代，仅作参考留存。
 
 ## 链路关系
 
